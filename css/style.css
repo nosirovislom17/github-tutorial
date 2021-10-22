@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+
+#nav {
+  background-color: #ff1a1a;
+}
+#nav > .container {
+  padding: 20px 0;
+  margin: auto 4%;
+}
+#nav > .container > a > img {
+  width: 100px;
+  height: 100px;
+}
+#nav > .container > ul {
+  padding-left: 30px;
+  display: inline;
+}
+.links {
+  list-style: none;
+  display: inline;
+  margin: 0 35px;
+}
+.links > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+#selekt {
+  border: none;
+  color: #fff;
+  background-color: #ff1a1a;
+  font-size: 18px;
+  margin: 0 72px;
+}
+#nav > .container > a > .search {
+  width: 25px;
+  height: 25px;
+}
+
+
+/* Section1 */
+.section1 > .container {
+  margin: auto 4%;
+}
+.section1 > .container > .row {
+  width: 105%;
+  padding: 100px 0;
+}
+.section1 > .container > .row > .col-md-7 > .line {
+  width: 10%;
+  border-top: 2px solid #ff1a1a;
+}
+.section1 > .container > .row > .col-md-7 > h3 {
+  margin: 27px 0;
+  font-size: 35px;
+  font-weight: 600;
+}
+.section1 > .container > .row > .col-md-7 > .text {
+  text-align: left;
+  padding: 0 50px;
+}
+.section1 > .container > .row > .col-md-7 > .text > p {
+  font-size: 21px;
+}
+.section1 > .container > .row > .col2 {
+  text-align: center;
+}
+
+/* Section2 */
+.section2 {
+  height: 35rem;
+}
+.section2 > h2 {
+  text-align: center;
+  font-weight: 700;
+}
+.section2 > .container > a {
+  background-color: #ff2222;
+  width: 100px;
+  height: 50px;
+}
+/* buttons */
+.buttons {
+  text-align: center;
+  display: flex;
+  padding: 50px 0;
+}
+.buttons > .button1 {
+  width: 33%;
+}
+.buttons > .button1 > a {
+  background-color: #ff2222;
+  color: #fff;
+  padding: 1.5rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.buttons > .button1 > a > img {
+  margin-right: 36px;
+  width: 43px;
+}
+.buttons > .button1 > a > p {
+  padding-left: 15px;
+  margin-right: 90px;
+  display: inline;
+}
+.buttons > .button2 {
+  width: 33%;
+}
+.buttons > .button2 > a {
+  background-color: #ff2222;
+  color: #fff;
+  padding: 1.5rem 1rem;
+  border-radius: 50px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.buttons > .button2 > a > img {
+  margin-right: 30px;
+  width: 40px;
+}
+.buttons > .button2 > a > p {
+  margin-right: 40px;
+  display: inline;
+}
+.buttons > .button3 {
+  width: 33%;
+}
+.buttons > .button3 > a {
+  background-color: #ff2222;
+  color: #fff;
+  padding: 1.5rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.buttons > .button3 > a > img {
+  margin-right: 30px;
+  width: 25px;
+}
+.buttons > .button3 > a > p {
+  padding-left: 30px;
+  margin-right: 75px;
+  display: inline;
+}
+
+/* Footer */
+#footer {
+  height: 10rem;
+}
+.footer-bc {
+  position: relative;
+  background-color: #2d2d2d;
+  height: 230px;
+  bottom: 0;
+}
+.card {
+  top: -302px;
+  width: 1000px;
+  left: 14rem;
+  border: none;
+  box-shadow: 0 0 0 5px #EDEDED;
+}
+.icons {
+  display: flex;
+  margin-bottom: 20px
+  ;
+}
+.icons > img {
+  width: 40px;
+  height: 40px;
+}
+.icons > .img2 {
+  width: 40px;
+  height: 35px;
+  margin-left: -5px;
+  margin-top: 7px;
+}
+.icons > p{
+  margin: 0 20px;
+}
+.icons > .texts {
+  margin-left: 18px;
+}
+.icons > .texts > p{
+  margin-bottom: 0;
+}
+.row > .col3 {
+  text-align: right;
+}
+.row >.col3 > p {
+  margin-bottom: 0;
+}
+.iconlink {
+  text-align: center;
+}
+.iconlink > a {
+  text-decoration: none;
+}
+.iconlink > a >img {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+}
+.card-body > p{
+  text-align: center;
+  margin-bottom: 0;
+}
